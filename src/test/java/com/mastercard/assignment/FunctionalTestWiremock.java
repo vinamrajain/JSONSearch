@@ -18,7 +18,7 @@ import static com.github.tomakehurst.wiremock.client.WireMock.*;
 import static org.apache.http.entity.ContentType.APPLICATION_JSON;
 import static org.junit.Assert.assertEquals;
 
-public class IntegrationTestWiremock {
+public class FunctionalTestWiremock {
 
     static int port;
 
@@ -39,7 +39,7 @@ public class IntegrationTestWiremock {
     public WireMockRule wireMockRule = new WireMockRule(port);
 
     @Test
-    public void integrationTestingForMatchingURL() throws IOException {
+    public void TestingForMatchingURL() throws IOException {
 
         stubFor(get(urlPathMatching("/search/.*"))
                 .willReturn(aResponse()
@@ -59,7 +59,7 @@ public class IntegrationTestWiremock {
     }
 
     @Test
-    public void integrationTestForMatchingHeaders() throws IOException {
+    public void TestForMatchingHeaders() throws IOException {
 
         stubFor(get(urlPathEqualTo("/search/abc"))
                 .withHeader("Accept", matching("text/.*"))

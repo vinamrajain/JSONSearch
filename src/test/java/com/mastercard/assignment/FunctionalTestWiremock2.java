@@ -17,7 +17,7 @@ import java.util.Scanner;
 import static com.github.tomakehurst.wiremock.client.WireMock.*;
 import static org.junit.Assert.assertEquals;
 
-public class IntegrationTestWiremock2 {
+public class FunctionalTestWiremock2 {
 
     private WireMockServer wireMockServer = new WireMockServer();
     private CloseableHttpClient httpClient = HttpClients.createDefault();

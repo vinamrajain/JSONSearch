@@ -30,7 +30,5 @@ class SearchControllerTest extends Specification{
 
         then:
         result instanceof ResponseCount
-
     }
-
 }
