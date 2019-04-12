@@ -1,8 +1,8 @@
 package com.mastercard.assignment;
 
-import com.mastercard.assignment.persistenceDAO.JsonDBRepository;
 import com.mastercard.assignment.service.KeywordSearchManagerIterativeImpl;
 import com.mastercard.assignment.view.ResponseCount;
+import com.mastercard.assignment.persistenceDAO.JsonDBRepository;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.junit.Assert;
@@ -10,7 +10,6 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.MockingDetails;
 import org.mockito.Mockito;
 import org.mockito.junit.MockitoJUnitRunner;
 

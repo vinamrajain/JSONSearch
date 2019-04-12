@@ -1,6 +1,5 @@
 package com.mastercard.assignment.config;
 
-import com.fasterxml.jackson.databind.util.JSONPObject;
 import org.json.JSONArray;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -4,11 +4,8 @@ import com.mastercard.assignment.persistenceDAO.JsonDBRepository;
 import com.mastercard.assignment.view.ResponseCount;
 import org.json.JSONArray;
 import org.json.JSONObject;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.boot.jackson.JsonObjectDeserializer;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
