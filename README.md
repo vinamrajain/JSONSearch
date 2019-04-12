@@ -56,7 +56,7 @@ endpoint: localhost:{port}/search/{keyword}
 2. Database can be update: New JSON objects can be added and even new keys can be added to each JSON object.
 3. Important: Each JSON Object in the Movies.json must contain a key as "title".
 5. Movies.json file may contain duplicate JSON objects (primary key : "title") but application will not count
- keyuwords for duplicate JSON objects with same movie title.
+ keywords for duplicate JSON objects with same movie title.
 4. Application is case-insensitive when searching for keyword.
 5. Both recursion and iterative implemetations are available. (by default : recursive)
 

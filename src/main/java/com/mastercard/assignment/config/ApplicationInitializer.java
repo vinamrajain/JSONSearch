@@ -42,6 +42,9 @@ public class ApplicationInitializer {
 
            logger.error("Could not load the JSON file", e);
 
+        } catch (org.json.JSONException jsonExc){
+
+            logger.error("Invalid JSON objects in the file", jsonExc);
         }
 
         return jsonArray;
